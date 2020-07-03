@@ -8,11 +8,22 @@ SDK支持 JDK 1.6 和 Android SDK version 18 以上系统
 
 
 ```java
-
-        implementation 'com.eling:imlibrary:1.0.0'
+//添加依赖
+implementation 'com.eling:imlibrary:1.0.0'
         
 ```
 
+```java
+//添加依赖仓库地址
+allprojects {
+    repositories {
+        maven { 
+            url "https://raw.githubusercontent.com/Eling10/android_im_sdk_imlibrary/master" 
+        }
+    }
+}
+        
+```
 
 
 
